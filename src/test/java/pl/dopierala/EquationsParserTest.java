@@ -39,7 +39,7 @@ public class EquationsParserTest {
     }
 
     @Test
-    public void shouldParseEquation6Eq100() {
+    public void shouldParseEquation5Eq100() {
         //given
         final String equation = "5=100";
         final Equation expectedEquation = new Equation(0, 5, 100);
@@ -52,7 +52,7 @@ public class EquationsParserTest {
     }
 
     @Test
-    public void shouldParseEquationXEq100() {
+    public void shouldParseEquationXEq200() {
         //given
         final String equation = "x=200";
         final Equation expectedEquation = new Equation(1, 0, 200);

@@ -30,11 +30,8 @@ public class EquationsParser {
                     a = Double.parseDouble(xSplit[0]);
                 else
                     b = Double.parseDouble(xSplit[0]);
-            }else{ //x or -x without number
-                if(hasmX)
-                    a=-1;
-                else
-                    a=1;
+            } else { //x or -x without number
+                a = hasmX ? -1 : 1;
             }
         }
 
