@@ -55,4 +55,17 @@ public class EquationsSolverTest {
         }
     }
 
+    @Test
+    public void shouldRetrun6IfEquationIs6xEquals36(){
+        //given
+        final double a =6;
+        final double b =0;
+        final double c =36;
+        final double expectedResult = 6;
+        //when
+        double result = eqSolv.solve(a,b,c);
+        //then
+        Assert.assertEquals(expectedResult,result,0.001);
+    }
+
 }

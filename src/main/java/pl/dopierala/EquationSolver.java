@@ -6,4 +6,6 @@ public class EquationSolver {
             throw new IncorrectEquationException("Parameter a equal to zero.");
         return (c-b)/a;
     }
+
+
 }
